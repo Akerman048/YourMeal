@@ -125,6 +125,9 @@ body {
   body {
     color: black;
   }
+  a {
+    color: #000;
+  }
 }
 main {
   flex: 1;
