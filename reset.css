@@ -107,7 +107,7 @@ section {
 }
 a {
   color: #000;
-  text-decoration: none; 
+  text-decoration: none;
 }
 body {
   display: flex;
@@ -119,6 +119,12 @@ body {
   background-color: #f9f9f9;
   height: 100%;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  body {
+    color: black;
+  }
 }
 main {
   flex: 1;
