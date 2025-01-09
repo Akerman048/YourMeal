@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YourMeal</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <div class="head__container">
+          <a href="/" class="logo-wrap"><img src="./images/logo.png" /></a>
+          <div class="head__content">
+            <div class="head__pic"><img src="./images/pic.png" /></div>
+            <div class="head__content-text">
+              <div class="head__title">
+                Only the juiciest <span>burgers!</span>
+              </div>
+              <span class="head__subtitle">Free delivery from 20$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main__container">
+        <div id="menu-nav"><div id="menu-nav__container"></div></div>
+        <div class="menu-container">
+          <div id="cart" class="cart"></div>
+          <div id="cartM" class="cartM">
+            <img class="cartM__img" src="/images/cart.png" />
+            <span id="cartM__amount" class="cartM__amount">0</span>
+          </div>
+          <div id="menu-catalog"></div>
+        </div>
+      </div>
+
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="modal-close-button">&times;</span>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer__wrap">
+        <div class="footer__logo"><img src="/images/colorfull_logo.png" /></div>
+        <div class="footer__content-wrap">
+          <div class="footer__numberWrap">
+            <h4>Order number</h4>
+            <a
+              href="tel:+3806666666"
+              aria-label="Call the number +38 (066) 666-66-66"
+              >+38 (066) 666-66-66</a
+            >
+          </div>
+          <div class="footer__socialWrap">
+            <h4>We are on social networks</h4>
+            <a href="https://www.facebook.com"
+              ><img src="/images/smm/facebook.png"
+            /></a>
+            <a href="https://www.instagram.com"
+              ><img src="/images/smm/instagram.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <p>© YouMeal, 2022</p>
+    </footer>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
